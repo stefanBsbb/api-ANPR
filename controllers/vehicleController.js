@@ -52,7 +52,7 @@ class VehicleController {
       } catch (error) {
         console.error('Error generating or saving vehicle:', error);
       }
-    }, 50000);
+    }, 10000);
   }
 }
 
